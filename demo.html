@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+  <title>jQuery Fancy Select Demo</title>
+
+
+  <link rel="stylesheet" type="text/css" href="https://raw.github.com/perfectline/jquery_fancyselect/master/src/jquery.fancyselect.scss"/>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="https://raw.github.com/perfectline/jquery_fancyselect/master/src/jquery.fancyselect.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $('div.fancy_select').fancyselect({
+        onSelect : function (item) {
+          console.log(item);
+        }
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+
+<div class="fancy_select">
+
+  <div class="selected">
+    <div class="title"></div>
+    <div class="arrow">
+      <span></span>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <ul>
+
+      <li data-id="1" data-name="Banana">
+        <a href="javascript:void(0);">Banana</a>
+      </li>
+
+      <li data-id="2" data-name="Pineapple">
+        <a href="javascript:void(0);">Pineapple</a>
+      </li>
+
+      <li data-id="3" data-name="Strawberry">
+        <a href="javascript:void(0);">Strawberry</a>
+      </li>
+
+      <li data-id="4" data-name="Cherry">
+        <a href="javascript:void(0);">Cherry</a>
+      </li>
+
+      <li data-id="4" data-name="Grape">
+        <a href="javascript:void(0);">Grape</a>
+      </li>
+
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
