@@ -4,7 +4,8 @@ jQuery plugin for awesome looking selects
 The goal of this plugin is to give designers full control over how select elements appear. This plugin replaces
 the traditional HTML select element with DIV elements that can be styled in any way the designer needs to.
 
-The following native select behaviours are currently implemented:
+Supported Behaviour
+-------------------
 
 - opening the select when clicking on it
 - hovering over an element shows a hover effect
@@ -13,10 +14,12 @@ The following native select behaviours are currently implemented:
 - escape closes the select
 - clicking anywhere on the document outside the select closes the select
 
-What's not supported is:
+Not supported
+-------------
 - typing the first few letters of an option to have it automatically be chosen
 
-Future plans:
+Plans
+-----
 - build the DOM automatically from select elements
 
 
@@ -50,9 +53,9 @@ See demo.html for the required DOM structure and a generic example on how to use
 Authors
 -------
 
-**Martin Kivi** (<http://twitter.com/martinkivi>)
-**Tanel Suurhans** (<http://twitter.com/tanelsuurhans>)
-**Tarmo Lehtpuu** (<http://twitter.com/tarmolehtpuu>)
+- **Martin Kivi** (<http://twitter.com/martinkivi>)
+- **Tanel Suurhans** (<http://twitter.com/tanelsuurhans>)
+- **Tarmo Lehtpuu** (<http://twitter.com/tarmolehtpuu>)
 
 License
 -------
