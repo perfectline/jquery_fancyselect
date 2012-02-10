@@ -175,8 +175,6 @@
       var id = $(element).data('id');
       var name = $(element).data('name');
 
-      console.log(element);
-
       this.element.find('div.selected div.title').text(name);
 
       if (this.options.onSelect != null) {
